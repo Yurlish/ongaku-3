@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		206EFB91273B91AA005D2258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206EFB90273B91AA005D2258 /* AppDelegate.swift */; };
+		206EFB93273B91AA005D2258 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206EFB92273B91AA005D2258 /* SceneDelegate.swift */; };
+		206EFB95273B91AA005D2258 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206EFB94273B91AA005D2258 /* ViewController.swift */; };
+		206EFB98273B91AA005D2258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206EFB96273B91AA005D2258 /* Main.storyboard */; };
+		206EFB9A273B91AB005D2258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206EFB99273B91AB005D2258 /* Assets.xcassets */; };
+		206EFB9D273B91AB005D2258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206EFB9B273B91AB005D2258 /* LaunchScreen.storyboard */; };
+		206EFBA8273B91AC005D2258 /* ongakuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206EFBA7273B91AC005D2258 /* ongakuTests.swift */; };
+		206EFBB2273B91AC005D2258 /* ongakuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206EFBB1273B91AC005D2258 /* ongakuUITests.swift */; };
+		206EFBB4273B91AC005D2258 /* ongakuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206EFBB3273B91AC005D2258 /* ongakuUITestsLaunchTests.swift */; };
+		209D4AE4273CDD8D0038A3C4 /* 我は来たれり.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AE3273CDD8D0038A3C4 /* 我は来たれり.mp3 */; };
+		209D4AE5273CDD8D0038A3C4 /* 我は来たれり.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AE3273CDD8D0038A3C4 /* 我は来たれり.mp3 */; };
+		209D4AE6273CDD8D0038A3C4 /* 我は来たれり.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AE3273CDD8D0038A3C4 /* 我は来たれり.mp3 */; };
+		209D4AE8273CDDA50038A3C4 /* Fear Dont Know My Name.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AE7273CDDA50038A3C4 /* Fear Dont Know My Name.mp3 */; };
+		209D4AE9273CDDA50038A3C4 /* Fear Dont Know My Name.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AE7273CDDA50038A3C4 /* Fear Dont Know My Name.mp3 */; };
+		209D4AEA273CDDA50038A3C4 /* Fear Dont Know My Name.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AE7273CDDA50038A3C4 /* Fear Dont Know My Name.mp3 */; };
+		209D4AEC273CDDB00038A3C4 /* Titans.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AEB273CDDB00038A3C4 /* Titans.mp3 */; };
+		209D4AED273CDDB00038A3C4 /* Titans.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AEB273CDDB00038A3C4 /* Titans.mp3 */; };
+		209D4AEE273CDDB00038A3C4 /* Titans.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AEB273CDDB00038A3C4 /* Titans.mp3 */; };
+		209D4AF0273CDDBB0038A3C4 /* Breaking Point.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AEF273CDDBB0038A3C4 /* Breaking Point.mp3 */; };
+		209D4AF1273CDDBB0038A3C4 /* Breaking Point.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AEF273CDDBB0038A3C4 /* Breaking Point.mp3 */; };
+		209D4AF2273CDDBB0038A3C4 /* Breaking Point.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AEF273CDDBB0038A3C4 /* Breaking Point.mp3 */; };
+		209D4AF4273CDDCB0038A3C4 /* De-Composed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AF3273CDDCB0038A3C4 /* De-Composed.mp3 */; };
+		209D4AF5273CDDCB0038A3C4 /* De-Composed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AF3273CDDCB0038A3C4 /* De-Composed.mp3 */; };
+		209D4AF6273CDDCB0038A3C4 /* De-Composed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AF3273CDDCB0038A3C4 /* De-Composed.mp3 */; };
+		209D4AF8273CDDDA0038A3C4 /* 南海奇皇.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AF7273CDDDA0038A3C4 /* 南海奇皇.mp3 */; };
+		209D4AF9273CDDDA0038A3C4 /* 南海奇皇.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AF7273CDDDA0038A3C4 /* 南海奇皇.mp3 */; };
+		209D4AFA273CDDDA0038A3C4 /* 南海奇皇.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AF7273CDDDA0038A3C4 /* 南海奇皇.mp3 */; };
+		209D4AFC273CDDEF0038A3C4 /* OnlyOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AFB273CDDEF0038A3C4 /* OnlyOne.mp3 */; };
+		209D4AFD273CDDEF0038A3C4 /* OnlyOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AFB273CDDEF0038A3C4 /* OnlyOne.mp3 */; };
+		209D4AFE273CDDEF0038A3C4 /* OnlyOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AFB273CDDEF0038A3C4 /* OnlyOne.mp3 */; };
+		209D4B00273CDDFB0038A3C4 /* KABUTO EXTENDER.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AFF273CDDFB0038A3C4 /* KABUTO EXTENDER.mp3 */; };
+		209D4B01273CDDFB0038A3C4 /* KABUTO EXTENDER.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AFF273CDDFB0038A3C4 /* KABUTO EXTENDER.mp3 */; };
+		209D4B02273CDDFB0038A3C4 /* KABUTO EXTENDER.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4AFF273CDDFB0038A3C4 /* KABUTO EXTENDER.mp3 */; };
+		209D4B04273CDE040038A3C4 /* モグラー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B03273CDE040038A3C4 /* モグラー.mp3 */; };
+		209D4B05273CDE040038A3C4 /* モグラー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B03273CDE040038A3C4 /* モグラー.mp3 */; };
+		209D4B06273CDE040038A3C4 /* モグラー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B03273CDE040038A3C4 /* モグラー.mp3 */; };
+		209D4B08273CDE0C0038A3C4 /* 決心 (#Kesshin).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B07273CDE0C0038A3C4 /* 決心 (#Kesshin).mp3 */; };
+		209D4B09273CDE0C0038A3C4 /* 決心 (#Kesshin).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B07273CDE0C0038A3C4 /* 決心 (#Kesshin).mp3 */; };
+		209D4B0A273CDE0C0038A3C4 /* 決心 (#Kesshin).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B07273CDE0C0038A3C4 /* 決心 (#Kesshin).mp3 */; };
+		209D4B0C273CDE190038A3C4 /* なんだかんだと聞かれたら....mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B0B273CDE190038A3C4 /* なんだかんだと聞かれたら....mp3 */; };
+		209D4B0D273CDE190038A3C4 /* なんだかんだと聞かれたら....mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B0B273CDE190038A3C4 /* なんだかんだと聞かれたら....mp3 */; };
+		209D4B0E273CDE190038A3C4 /* なんだかんだと聞かれたら....mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B0B273CDE190038A3C4 /* なんだかんだと聞かれたら....mp3 */; };
+		209D4B10273CDE220038A3C4 /* ワールドトリガー メインテーマ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B0F273CDE220038A3C4 /* ワールドトリガー メインテーマ.mp3 */; };
+		209D4B11273CDE220038A3C4 /* ワールドトリガー メインテーマ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B0F273CDE220038A3C4 /* ワールドトリガー メインテーマ.mp3 */; };
+		209D4B12273CDE220038A3C4 /* ワールドトリガー メインテーマ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B0F273CDE220038A3C4 /* ワールドトリガー メインテーマ.mp3 */; };
+		209D4B14273CDE2C0038A3C4 /* NEO RANGA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B13273CDE2C0038A3C4 /* NEO RANGA.mp3 */; };
+		209D4B15273CDE2C0038A3C4 /* NEO RANGA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B13273CDE2C0038A3C4 /* NEO RANGA.mp3 */; };
+		209D4B16273CDE2C0038A3C4 /* NEO RANGA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B13273CDE2C0038A3C4 /* NEO RANGA.mp3 */; };
+		209D4B18273CDE350038A3C4 /* 神 to 汝.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B17273CDE350038A3C4 /* 神 to 汝.mp3 */; };
+		209D4B19273CDE350038A3C4 /* 神 to 汝.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B17273CDE350038A3C4 /* 神 to 汝.mp3 */; };
+		209D4B1A273CDE350038A3C4 /* 神 to 汝.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B17273CDE350038A3C4 /* 神 to 汝.mp3 */; };
+		209D4B20273CDE4C0038A3C4 /* Otoya's Etude.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B1F273CDE4C0038A3C4 /* Otoya's Etude.mp3 */; };
+		209D4B21273CDE4C0038A3C4 /* Otoya's Etude.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B1F273CDE4C0038A3C4 /* Otoya's Etude.mp3 */; };
+		209D4B22273CDE4C0038A3C4 /* Otoya's Etude.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B1F273CDE4C0038A3C4 /* Otoya's Etude.mp3 */; };
+		209D4B24273CDE550038A3C4 /* ヒロイックノスタルジー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B23273CDE550038A3C4 /* ヒロイックノスタルジー.mp3 */; };
+		209D4B25273CDE550038A3C4 /* ヒロイックノスタルジー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B23273CDE550038A3C4 /* ヒロイックノスタルジー.mp3 */; };
+		209D4B26273CDE550038A3C4 /* ヒロイックノスタルジー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B23273CDE550038A3C4 /* ヒロイックノスタルジー.mp3 */; };
+		209D4B28273CDE620038A3C4 /* クライマックス10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B27273CDE620038A3C4 /* クライマックス10.mp3 */; };
+		209D4B29273CDE620038A3C4 /* クライマックス10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B27273CDE620038A3C4 /* クライマックス10.mp3 */; };
+		209D4B2A273CDE620038A3C4 /* クライマックス10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B27273CDE620038A3C4 /* クライマックス10.mp3 */; };
+		209D4B2C273CDE6B0038A3C4 /* 想い合う兄弟.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B2B273CDE6B0038A3C4 /* 想い合う兄弟.mp3 */; };
+		209D4B2D273CDE6B0038A3C4 /* 想い合う兄弟.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B2B273CDE6B0038A3C4 /* 想い合う兄弟.mp3 */; };
+		209D4B2E273CDE6B0038A3C4 /* 想い合う兄弟.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B2B273CDE6B0038A3C4 /* 想い合う兄弟.mp3 */; };
+		209D4B30273CDE770038A3C4 /* kanzaki shirou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B2F273CDE760038A3C4 /* kanzaki shirou.mp3 */; };
+		209D4B31273CDE770038A3C4 /* kanzaki shirou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B2F273CDE760038A3C4 /* kanzaki shirou.mp3 */; };
+		209D4B32273CDE770038A3C4 /* kanzaki shirou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B2F273CDE760038A3C4 /* kanzaki shirou.mp3 */; };
+		209D4B34273CDE800038A3C4 /* 富士サファリパーク.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B33273CDE800038A3C4 /* 富士サファリパーク.mp3 */; };
+		209D4B35273CDE800038A3C4 /* 富士サファリパーク.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B33273CDE800038A3C4 /* 富士サファリパーク.mp3 */; };
+		209D4B36273CDE800038A3C4 /* 富士サファリパーク.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B33273CDE800038A3C4 /* 富士サファリパーク.mp3 */; };
+		209D4B38273CE0770038A3C4 /* Flight of Dreams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B37273CE0770038A3C4 /* Flight of Dreams.mp3 */; };
+		209D4B39273CE0770038A3C4 /* Flight of Dreams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B37273CE0770038A3C4 /* Flight of Dreams.mp3 */; };
+		209D4B3A273CE0770038A3C4 /* Flight of Dreams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B37273CE0770038A3C4 /* Flight of Dreams.mp3 */; };
+		209D4B3C273CE13D0038A3C4 /* Shaky Shaky (JOE Shakin' Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B3B273CE13D0038A3C4 /* Shaky Shaky (JOE Shakin' Remix).mp3 */; };
+		209D4B3D273CE13D0038A3C4 /* Shaky Shaky (JOE Shakin' Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B3B273CE13D0038A3C4 /* Shaky Shaky (JOE Shakin' Remix).mp3 */; };
+		209D4B3E273CE13D0038A3C4 /* Shaky Shaky (JOE Shakin' Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B3B273CE13D0038A3C4 /* Shaky Shaky (JOE Shakin' Remix).mp3 */; };
+		209D4B40273CE19B0038A3C4 /* 来たる春.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B3F273CE19B0038A3C4 /* 来たる春.mp3 */; };
+		209D4B41273CE19B0038A3C4 /* 来たる春.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B3F273CE19B0038A3C4 /* 来たる春.mp3 */; };
+		209D4B42273CE19B0038A3C4 /* 来たる春.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B3F273CE19B0038A3C4 /* 来たる春.mp3 */; };
+		209D4B44273CE1E70038A3C4 /* 春うらら.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B43273CE1E70038A3C4 /* 春うらら.mp3 */; };
+		209D4B45273CE1E70038A3C4 /* 春うらら.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B43273CE1E70038A3C4 /* 春うらら.mp3 */; };
+		209D4B46273CE1E70038A3C4 /* 春うらら.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B43273CE1E70038A3C4 /* 春うらら.mp3 */; };
+		209D4B48273CE2860038A3C4 /* 骨伝導.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B47273CE2860038A3C4 /* 骨伝導.mp3 */; };
+		209D4B49273CE2860038A3C4 /* 骨伝導.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B47273CE2860038A3C4 /* 骨伝導.mp3 */; };
+		209D4B4A273CE2860038A3C4 /* 骨伝導.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B47273CE2860038A3C4 /* 骨伝導.mp3 */; };
+		209D4B4C273CEC250038A3C4 /* 人でなくなったら.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B4B273CEC250038A3C4 /* 人でなくなったら.mp3 */; };
+		209D4B4D273CEC250038A3C4 /* 人でなくなったら.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B4B273CEC250038A3C4 /* 人でなくなったら.mp3 */; };
+		209D4B4E273CEC250038A3C4 /* 人でなくなったら.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B4B273CEC250038A3C4 /* 人でなくなったら.mp3 */; };
+		209D4B50273CEC520038A3C4 /* あなたに逢えて.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B4F273CEC520038A3C4 /* あなたに逢えて.mp3 */; };
+		209D4B51273CEC520038A3C4 /* あなたに逢えて.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B4F273CEC520038A3C4 /* あなたに逢えて.mp3 */; };
+		209D4B52273CEC520038A3C4 /* あなたに逢えて.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B4F273CEC520038A3C4 /* あなたに逢えて.mp3 */; };
+		209D4B54273CEC7C0038A3C4 /* アマハレーハ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B53273CEC7C0038A3C4 /* アマハレーハ.mp3 */; };
+		209D4B55273CEC7C0038A3C4 /* アマハレーハ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B53273CEC7C0038A3C4 /* アマハレーハ.mp3 */; };
+		209D4B56273CEC7C0038A3C4 /* アマハレーハ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B53273CEC7C0038A3C4 /* アマハレーハ.mp3 */; };
+		209D4B58273CECA80038A3C4 /* やがて星が降る.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B57273CECA80038A3C4 /* やがて星が降る.mp3 */; };
+		209D4B59273CECA80038A3C4 /* やがて星が降る.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B57273CECA80038A3C4 /* やがて星が降る.mp3 */; };
+		209D4B5A273CECA80038A3C4 /* やがて星が降る.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B57273CECA80038A3C4 /* やがて星が降る.mp3 */; };
+		209D4B5C273CED0C0038A3C4 /* 01 僕のこと わかってます.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B5B273CED0B0038A3C4 /* 01 僕のこと わかってます.mp3 */; };
+		209D4B5D273CED0C0038A3C4 /* 01 僕のこと わかってます.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B5B273CED0B0038A3C4 /* 01 僕のこと わかってます.mp3 */; };
+		209D4B5E273CED0C0038A3C4 /* 01 僕のこと わかってます.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B5B273CED0B0038A3C4 /* 01 僕のこと わかってます.mp3 */; };
+		209D4B60273CED1D0038A3C4 /* グリーザ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B5F273CED1D0038A3C4 /* グリーザ.mp3 */; };
+		209D4B61273CED1D0038A3C4 /* グリーザ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B5F273CED1D0038A3C4 /* グリーザ.mp3 */; };
+		209D4B62273CED1D0038A3C4 /* グリーザ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B5F273CED1D0038A3C4 /* グリーザ.mp3 */; };
+		20FF5993274E0C2100C03E48 /* 再生ボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 20FF5992274E0C2100C03E48 /* 再生ボタン.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		206EFBA4273B91AC005D2258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 206EFB85273B91AA005D2258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206EFB8C273B91AA005D2258;
+			remoteInfo = ongaku;
+		};
+		206EFBAE273B91AC005D2258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 206EFB85273B91AA005D2258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206EFB8C273B91AA005D2258;
+			remoteInfo = ongaku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		206EFB8D273B91AA005D2258 /* ongaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ongaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		206EFB90273B91AA005D2258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		206EFB92273B91AA005D2258 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		206EFB94273B91AA005D2258 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		206EFB97273B91AA005D2258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		206EFB99273B91AB005D2258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		206EFB9C273B91AB005D2258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		206EFB9E273B91AB005D2258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206EFBA3273B91AC005D2258 /* ongakuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ongakuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		206EFBA7273B91AC005D2258 /* ongakuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ongakuTests.swift; sourceTree = "<group>"; };
+		206EFBAD273B91AC005D2258 /* ongakuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ongakuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		206EFBB1273B91AC005D2258 /* ongakuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ongakuUITests.swift; sourceTree = "<group>"; };
+		206EFBB3273B91AC005D2258 /* ongakuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ongakuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		209D4AE3273CDD8D0038A3C4 /* 我は来たれり.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我は来たれり.mp3"; sourceTree = "<group>"; };
+		209D4AE7273CDDA50038A3C4 /* Fear Dont Know My Name.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fear Dont Know My Name.mp3"; sourceTree = "<group>"; };
+		209D4AEB273CDDB00038A3C4 /* Titans.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Titans.mp3; sourceTree = "<group>"; };
+		209D4AEF273CDDBB0038A3C4 /* Breaking Point.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Breaking Point.mp3"; sourceTree = "<group>"; };
+		209D4AF3273CDDCB0038A3C4 /* De-Composed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "De-Composed.mp3"; sourceTree = "<group>"; };
+		209D4AF7273CDDDA0038A3C4 /* 南海奇皇.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "南海奇皇.mp3"; sourceTree = "<group>"; };
+		209D4AFB273CDDEF0038A3C4 /* OnlyOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OnlyOne.mp3; sourceTree = "<group>"; };
+		209D4AFF273CDDFB0038A3C4 /* KABUTO EXTENDER.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "KABUTO EXTENDER.mp3"; sourceTree = "<group>"; };
+		209D4B03273CDE040038A3C4 /* モグラー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "モグラー.mp3"; sourceTree = "<group>"; };
+		209D4B07273CDE0C0038A3C4 /* 決心 (#Kesshin).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "決心 (#Kesshin).mp3"; sourceTree = "<group>"; };
+		209D4B0B273CDE190038A3C4 /* なんだかんだと聞かれたら....mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "なんだかんだと聞かれたら....mp3"; sourceTree = "<group>"; };
+		209D4B0F273CDE220038A3C4 /* ワールドトリガー メインテーマ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ワールドトリガー メインテーマ.mp3"; sourceTree = "<group>"; };
+		209D4B13273CDE2C0038A3C4 /* NEO RANGA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "NEO RANGA.mp3"; sourceTree = "<group>"; };
+		209D4B17273CDE350038A3C4 /* 神 to 汝.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "神 to 汝.mp3"; sourceTree = "<group>"; };
+		209D4B1F273CDE4C0038A3C4 /* Otoya's Etude.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Otoya's Etude.mp3"; sourceTree = "<group>"; };
+		209D4B23273CDE550038A3C4 /* ヒロイックノスタルジー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ヒロイックノスタルジー.mp3"; sourceTree = "<group>"; };
+		209D4B27273CDE620038A3C4 /* クライマックス10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "クライマックス10.mp3"; sourceTree = "<group>"; };
+		209D4B2B273CDE6B0038A3C4 /* 想い合う兄弟.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "想い合う兄弟.mp3"; sourceTree = "<group>"; };
+		209D4B2F273CDE760038A3C4 /* kanzaki shirou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kanzaki shirou.mp3"; sourceTree = "<group>"; };
+		209D4B33273CDE800038A3C4 /* 富士サファリパーク.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "富士サファリパーク.mp3"; sourceTree = "<group>"; };
+		209D4B37273CE0770038A3C4 /* Flight of Dreams.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Flight of Dreams.mp3"; sourceTree = "<group>"; };
+		209D4B3B273CE13D0038A3C4 /* Shaky Shaky (JOE Shakin' Remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shaky Shaky (JOE Shakin' Remix).mp3"; sourceTree = "<group>"; };
+		209D4B3F273CE19B0038A3C4 /* 来たる春.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "来たる春.mp3"; sourceTree = "<group>"; };
+		209D4B43273CE1E70038A3C4 /* 春うらら.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "春うらら.mp3"; sourceTree = "<group>"; };
+		209D4B47273CE2860038A3C4 /* 骨伝導.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "骨伝導.mp3"; sourceTree = "<group>"; };
+		209D4B4B273CEC250038A3C4 /* 人でなくなったら.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "人でなくなったら.mp3"; sourceTree = "<group>"; };
+		209D4B4F273CEC520038A3C4 /* あなたに逢えて.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "あなたに逢えて.mp3"; sourceTree = "<group>"; };
+		209D4B53273CEC7C0038A3C4 /* アマハレーハ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "アマハレーハ.mp3"; sourceTree = "<group>"; };
+		209D4B57273CECA80038A3C4 /* やがて星が降る.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "やがて星が降る.mp3"; sourceTree = "<group>"; };
+		209D4B5B273CED0B0038A3C4 /* 01 僕のこと わかってます.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 僕のこと わかってます.mp3"; sourceTree = "<group>"; };
+		209D4B5F273CED1D0038A3C4 /* グリーザ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "グリーザ.mp3"; sourceTree = "<group>"; };
+		20FF5992274E0C2100C03E48 /* 再生ボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "再生ボタン.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		206EFB8A273B91AA005D2258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206EFBA0273B91AC005D2258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206EFBAA273B91AC005D2258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		206EFB84273B91AA005D2258 = {
+			isa = PBXGroup;
+			children = (
+				206EFB8F273B91AA005D2258 /* ongaku */,
+				206EFBA6273B91AC005D2258 /* ongakuTests */,
+				206EFBB0273B91AC005D2258 /* ongakuUITests */,
+				206EFB8E273B91AA005D2258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		206EFB8E273B91AA005D2258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				206EFB8D273B91AA005D2258 /* ongaku.app */,
+				206EFBA3273B91AC005D2258 /* ongakuTests.xctest */,
+				206EFBAD273B91AC005D2258 /* ongakuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		206EFB8F273B91AA005D2258 /* ongaku */ = {
+			isa = PBXGroup;
+			children = (
+				206EFB90273B91AA005D2258 /* AppDelegate.swift */,
+				206EFB92273B91AA005D2258 /* SceneDelegate.swift */,
+				206EFB94273B91AA005D2258 /* ViewController.swift */,
+				206EFB96273B91AA005D2258 /* Main.storyboard */,
+				206EFB99273B91AB005D2258 /* Assets.xcassets */,
+				206EFB9B273B91AB005D2258 /* LaunchScreen.storyboard */,
+				206EFB9E273B91AB005D2258 /* Info.plist */,
+			);
+			path = ongaku;
+			sourceTree = "<group>";
+		};
+		206EFBA6273B91AC005D2258 /* ongakuTests */ = {
+			isa = PBXGroup;
+			children = (
+				206EFBA7273B91AC005D2258 /* ongakuTests.swift */,
+			);
+			path = ongakuTests;
+			sourceTree = "<group>";
+		};
+		206EFBB0273B91AC005D2258 /* ongakuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20FF5992274E0C2100C03E48 /* 再生ボタン.png */,
+				206EFBC0273B9D30005D2258 /* Resources */,
+				206EFBB1273B91AC005D2258 /* ongakuUITests.swift */,
+				206EFBB3273B91AC005D2258 /* ongakuUITestsLaunchTests.swift */,
+				209D4AE3273CDD8D0038A3C4 /* 我は来たれり.mp3 */,
+				209D4AE7273CDDA50038A3C4 /* Fear Dont Know My Name.mp3 */,
+				209D4AEB273CDDB00038A3C4 /* Titans.mp3 */,
+				209D4AEF273CDDBB0038A3C4 /* Breaking Point.mp3 */,
+				209D4AF3273CDDCB0038A3C4 /* De-Composed.mp3 */,
+				209D4AF7273CDDDA0038A3C4 /* 南海奇皇.mp3 */,
+				209D4AFB273CDDEF0038A3C4 /* OnlyOne.mp3 */,
+				209D4AFF273CDDFB0038A3C4 /* KABUTO EXTENDER.mp3 */,
+				209D4B03273CDE040038A3C4 /* モグラー.mp3 */,
+				209D4B07273CDE0C0038A3C4 /* 決心 (#Kesshin).mp3 */,
+				209D4B0B273CDE190038A3C4 /* なんだかんだと聞かれたら....mp3 */,
+				209D4B0F273CDE220038A3C4 /* ワールドトリガー メインテーマ.mp3 */,
+				209D4B13273CDE2C0038A3C4 /* NEO RANGA.mp3 */,
+				209D4B17273CDE350038A3C4 /* 神 to 汝.mp3 */,
+				209D4B1F273CDE4C0038A3C4 /* Otoya's Etude.mp3 */,
+				209D4B23273CDE550038A3C4 /* ヒロイックノスタルジー.mp3 */,
+				209D4B27273CDE620038A3C4 /* クライマックス10.mp3 */,
+				209D4B2B273CDE6B0038A3C4 /* 想い合う兄弟.mp3 */,
+				209D4B2F273CDE760038A3C4 /* kanzaki shirou.mp3 */,
+				209D4B33273CDE800038A3C4 /* 富士サファリパーク.mp3 */,
+				209D4B37273CE0770038A3C4 /* Flight of Dreams.mp3 */,
+				209D4B3B273CE13D0038A3C4 /* Shaky Shaky (JOE Shakin' Remix).mp3 */,
+				209D4B3F273CE19B0038A3C4 /* 来たる春.mp3 */,
+				209D4B43273CE1E70038A3C4 /* 春うらら.mp3 */,
+				209D4B47273CE2860038A3C4 /* 骨伝導.mp3 */,
+				209D4B4B273CEC250038A3C4 /* 人でなくなったら.mp3 */,
+				209D4B4F273CEC520038A3C4 /* あなたに逢えて.mp3 */,
+				209D4B53273CEC7C0038A3C4 /* アマハレーハ.mp3 */,
+				209D4B57273CECA80038A3C4 /* やがて星が降る.mp3 */,
+				209D4B5B273CED0B0038A3C4 /* 01 僕のこと わかってます.mp3 */,
+				209D4B5F273CED1D0038A3C4 /* グリーザ.mp3 */,
+			);
+			path = ongakuUITests;
+			sourceTree = "<group>";
+		};
+		206EFBC0273B9D30005D2258 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		206EFB8C273B91AA005D2258 /* ongaku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206EFBB7273B91AC005D2258 /* Build configuration list for PBXNativeTarget "ongaku" */;
+			buildPhases = (
+				206EFB89273B91AA005D2258 /* Sources */,
+				206EFB8A273B91AA005D2258 /* Frameworks */,
+				206EFB8B273B91AA005D2258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ongaku;
+			productName = ongaku;
+			productReference = 206EFB8D273B91AA005D2258 /* ongaku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		206EFBA2273B91AC005D2258 /* ongakuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206EFBBA273B91AC005D2258 /* Build configuration list for PBXNativeTarget "ongakuTests" */;
+			buildPhases = (
+				206EFB9F273B91AC005D2258 /* Sources */,
+				206EFBA0273B91AC005D2258 /* Frameworks */,
+				206EFBA1273B91AC005D2258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				206EFBA5273B91AC005D2258 /* PBXTargetDependency */,
+			);
+			name = ongakuTests;
+			productName = ongakuTests;
+			productReference = 206EFBA3273B91AC005D2258 /* ongakuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		206EFBAC273B91AC005D2258 /* ongakuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206EFBBD273B91AC005D2258 /* Build configuration list for PBXNativeTarget "ongakuUITests" */;
+			buildPhases = (
+				206EFBA9273B91AC005D2258 /* Sources */,
+				206EFBAA273B91AC005D2258 /* Frameworks */,
+				206EFBAB273B91AC005D2258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				206EFBAF273B91AC005D2258 /* PBXTargetDependency */,
+			);
+			name = ongakuUITests;
+			productName = ongakuUITests;
+			productReference = 206EFBAD273B91AC005D2258 /* ongakuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		206EFB85273B91AA005D2258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					206EFB8C273B91AA005D2258 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					206EFBA2273B91AC005D2258 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 206EFB8C273B91AA005D2258;
+					};
+					206EFBAC273B91AC005D2258 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 206EFB8C273B91AA005D2258;
+					};
+				};
+			};
+			buildConfigurationList = 206EFB88273B91AA005D2258 /* Build configuration list for PBXProject "ongaku" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 206EFB84273B91AA005D2258;
+			productRefGroup = 206EFB8E273B91AA005D2258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				206EFB8C273B91AA005D2258 /* ongaku */,
+				206EFBA2273B91AC005D2258 /* ongakuTests */,
+				206EFBAC273B91AC005D2258 /* ongakuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		206EFB8B273B91AA005D2258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D4AF0273CDDBB0038A3C4 /* Breaking Point.mp3 in Resources */,
+				209D4AE8273CDDA50038A3C4 /* Fear Dont Know My Name.mp3 in Resources */,
+				209D4B3C273CE13D0038A3C4 /* Shaky Shaky (JOE Shakin' Remix).mp3 in Resources */,
+				209D4B5C273CED0C0038A3C4 /* 01 僕のこと わかってます.mp3 in Resources */,
+				209D4B48273CE2860038A3C4 /* 骨伝導.mp3 in Resources */,
+				209D4B44273CE1E70038A3C4 /* 春うらら.mp3 in Resources */,
+				209D4B20273CDE4C0038A3C4 /* Otoya's Etude.mp3 in Resources */,
+				209D4B58273CECA80038A3C4 /* やがて星が降る.mp3 in Resources */,
+				209D4AEC273CDDB00038A3C4 /* Titans.mp3 in Resources */,
+				209D4AFC273CDDEF0038A3C4 /* OnlyOne.mp3 in Resources */,
+				209D4B4C273CEC250038A3C4 /* 人でなくなったら.mp3 in Resources */,
+				206EFB9D273B91AB005D2258 /* LaunchScreen.storyboard in Resources */,
+				209D4B0C273CDE190038A3C4 /* なんだかんだと聞かれたら....mp3 in Resources */,
+				209D4B14273CDE2C0038A3C4 /* NEO RANGA.mp3 in Resources */,
+				209D4B18273CDE350038A3C4 /* 神 to 汝.mp3 in Resources */,
+				209D4B54273CEC7C0038A3C4 /* アマハレーハ.mp3 in Resources */,
+				209D4B2C273CDE6B0038A3C4 /* 想い合う兄弟.mp3 in Resources */,
+				209D4B08273CDE0C0038A3C4 /* 決心 (#Kesshin).mp3 in Resources */,
+				209D4B38273CE0770038A3C4 /* Flight of Dreams.mp3 in Resources */,
+				209D4B34273CDE800038A3C4 /* 富士サファリパーク.mp3 in Resources */,
+				209D4AF8273CDDDA0038A3C4 /* 南海奇皇.mp3 in Resources */,
+				209D4B24273CDE550038A3C4 /* ヒロイックノスタルジー.mp3 in Resources */,
+				206EFB9A273B91AB005D2258 /* Assets.xcassets in Resources */,
+				209D4B50273CEC520038A3C4 /* あなたに逢えて.mp3 in Resources */,
+				209D4B30273CDE770038A3C4 /* kanzaki shirou.mp3 in Resources */,
+				209D4AF4273CDDCB0038A3C4 /* De-Composed.mp3 in Resources */,
+				209D4AE4273CDD8D0038A3C4 /* 我は来たれり.mp3 in Resources */,
+				209D4B60273CED1D0038A3C4 /* グリーザ.mp3 in Resources */,
+				206EFB98273B91AA005D2258 /* Main.storyboard in Resources */,
+				209D4B40273CE19B0038A3C4 /* 来たる春.mp3 in Resources */,
+				209D4B04273CDE040038A3C4 /* モグラー.mp3 in Resources */,
+				209D4B28273CDE620038A3C4 /* クライマックス10.mp3 in Resources */,
+				209D4B00273CDDFB0038A3C4 /* KABUTO EXTENDER.mp3 in Resources */,
+				209D4B10273CDE220038A3C4 /* ワールドトリガー メインテーマ.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206EFBA1273B91AC005D2258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D4B0D273CDE190038A3C4 /* なんだかんだと聞かれたら....mp3 in Resources */,
+				209D4AE5273CDD8D0038A3C4 /* 我は来たれり.mp3 in Resources */,
+				209D4B4D273CEC250038A3C4 /* 人でなくなったら.mp3 in Resources */,
+				209D4B51273CEC520038A3C4 /* あなたに逢えて.mp3 in Resources */,
+				209D4B61273CED1D0038A3C4 /* グリーザ.mp3 in Resources */,
+				209D4AF5273CDDCB0038A3C4 /* De-Composed.mp3 in Resources */,
+				209D4B35273CDE800038A3C4 /* 富士サファリパーク.mp3 in Resources */,
+				209D4B5D273CED0C0038A3C4 /* 01 僕のこと わかってます.mp3 in Resources */,
+				209D4B31273CDE770038A3C4 /* kanzaki shirou.mp3 in Resources */,
+				209D4B29273CDE620038A3C4 /* クライマックス10.mp3 in Resources */,
+				209D4B45273CE1E70038A3C4 /* 春うらら.mp3 in Resources */,
+				209D4B25273CDE550038A3C4 /* ヒロイックノスタルジー.mp3 in Resources */,
+				209D4AF1273CDDBB0038A3C4 /* Breaking Point.mp3 in Resources */,
+				209D4AED273CDDB00038A3C4 /* Titans.mp3 in Resources */,
+				209D4B05273CDE040038A3C4 /* モグラー.mp3 in Resources */,
+				209D4B41273CE19B0038A3C4 /* 来たる春.mp3 in Resources */,
+				209D4B19273CDE350038A3C4 /* 神 to 汝.mp3 in Resources */,
+				209D4B09273CDE0C0038A3C4 /* 決心 (#Kesshin).mp3 in Resources */,
+				209D4AF9273CDDDA0038A3C4 /* 南海奇皇.mp3 in Resources */,
+				209D4B55273CEC7C0038A3C4 /* アマハレーハ.mp3 in Resources */,
+				209D4B49273CE2860038A3C4 /* 骨伝導.mp3 in Resources */,
+				209D4B15273CDE2C0038A3C4 /* NEO RANGA.mp3 in Resources */,
+				209D4B2D273CDE6B0038A3C4 /* 想い合う兄弟.mp3 in Resources */,
+				209D4B11273CDE220038A3C4 /* ワールドトリガー メインテーマ.mp3 in Resources */,
+				209D4B21273CDE4C0038A3C4 /* Otoya's Etude.mp3 in Resources */,
+				209D4B59273CECA80038A3C4 /* やがて星が降る.mp3 in Resources */,
+				209D4AFD273CDDEF0038A3C4 /* OnlyOne.mp3 in Resources */,
+				209D4B3D273CE13D0038A3C4 /* Shaky Shaky (JOE Shakin' Remix).mp3 in Resources */,
+				209D4B01273CDDFB0038A3C4 /* KABUTO EXTENDER.mp3 in Resources */,
+				209D4AE9273CDDA50038A3C4 /* Fear Dont Know My Name.mp3 in Resources */,
+				209D4B39273CE0770038A3C4 /* Flight of Dreams.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206EFBAB273B91AC005D2258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D4B0E273CDE190038A3C4 /* なんだかんだと聞かれたら....mp3 in Resources */,
+				209D4AE6273CDD8D0038A3C4 /* 我は来たれり.mp3 in Resources */,
+				209D4B4E273CEC250038A3C4 /* 人でなくなったら.mp3 in Resources */,
+				209D4B52273CEC520038A3C4 /* あなたに逢えて.mp3 in Resources */,
+				209D4B62273CED1D0038A3C4 /* グリーザ.mp3 in Resources */,
+				209D4AF6273CDDCB0038A3C4 /* De-Composed.mp3 in Resources */,
+				209D4B36273CDE800038A3C4 /* 富士サファリパーク.mp3 in Resources */,
+				209D4B5E273CED0C0038A3C4 /* 01 僕のこと わかってます.mp3 in Resources */,
+				209D4B32273CDE770038A3C4 /* kanzaki shirou.mp3 in Resources */,
+				209D4B2A273CDE620038A3C4 /* クライマックス10.mp3 in Resources */,
+				209D4B46273CE1E70038A3C4 /* 春うらら.mp3 in Resources */,
+				209D4B26273CDE550038A3C4 /* ヒロイックノスタルジー.mp3 in Resources */,
+				209D4AF2273CDDBB0038A3C4 /* Breaking Point.mp3 in Resources */,
+				209D4AEE273CDDB00038A3C4 /* Titans.mp3 in Resources */,
+				209D4B06273CDE040038A3C4 /* モグラー.mp3 in Resources */,
+				209D4B42273CE19B0038A3C4 /* 来たる春.mp3 in Resources */,
+				209D4B1A273CDE350038A3C4 /* 神 to 汝.mp3 in Resources */,
+				209D4B0A273CDE0C0038A3C4 /* 決心 (#Kesshin).mp3 in Resources */,
+				209D4AFA273CDDDA0038A3C4 /* 南海奇皇.mp3 in Resources */,
+				20FF5993274E0C2100C03E48 /* 再生ボタン.png in Resources */,
+				209D4B56273CEC7C0038A3C4 /* アマハレーハ.mp3 in Resources */,
+				209D4B4A273CE2860038A3C4 /* 骨伝導.mp3 in Resources */,
+				209D4B16273CDE2C0038A3C4 /* NEO RANGA.mp3 in Resources */,
+				209D4B2E273CDE6B0038A3C4 /* 想い合う兄弟.mp3 in Resources */,
+				209D4B12273CDE220038A3C4 /* ワールドトリガー メインテーマ.mp3 in Resources */,
+				209D4B22273CDE4C0038A3C4 /* Otoya's Etude.mp3 in Resources */,
+				209D4B5A273CECA80038A3C4 /* やがて星が降る.mp3 in Resources */,
+				209D4AFE273CDDEF0038A3C4 /* OnlyOne.mp3 in Resources */,
+				209D4B3E273CE13D0038A3C4 /* Shaky Shaky (JOE Shakin' Remix).mp3 in Resources */,
+				209D4B02273CDDFB0038A3C4 /* KABUTO EXTENDER.mp3 in Resources */,
+				209D4AEA273CDDA50038A3C4 /* Fear Dont Know My Name.mp3 in Resources */,
+				209D4B3A273CE0770038A3C4 /* Flight of Dreams.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		206EFB89273B91AA005D2258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206EFB95273B91AA005D2258 /* ViewController.swift in Sources */,
+				206EFB91273B91AA005D2258 /* AppDelegate.swift in Sources */,
+				206EFB93273B91AA005D2258 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206EFB9F273B91AC005D2258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206EFBA8273B91AC005D2258 /* ongakuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206EFBA9273B91AC005D2258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206EFBB2273B91AC005D2258 /* ongakuUITests.swift in Sources */,
+				206EFBB4273B91AC005D2258 /* ongakuUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		206EFBA5273B91AC005D2258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206EFB8C273B91AA005D2258 /* ongaku */;
+			targetProxy = 206EFBA4273B91AC005D2258 /* PBXContainerItemProxy */;
+		};
+		206EFBAF273B91AC005D2258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206EFB8C273B91AA005D2258 /* ongaku */;
+			targetProxy = 206EFBAE273B91AC005D2258 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		206EFB96273B91AA005D2258 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				206EFB97273B91AA005D2258 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		206EFB9B273B91AB005D2258 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				206EFB9C273B91AB005D2258 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		206EFBB5273B91AC005D2258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		206EFBB6273B91AC005D2258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		206EFBB8273B91AC005D2258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ongaku/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.ongaku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		206EFBB9273B91AC005D2258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ongaku/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.ongaku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		206EFBBB273B91AC005D2258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.ongakuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ongaku.app/ongaku";
+			};
+			name = Debug;
+		};
+		206EFBBC273B91AC005D2258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.ongakuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ongaku.app/ongaku";
+			};
+			name = Release;
+		};
+		206EFBBE273B91AC005D2258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.ongakuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ongaku;
+			};
+			name = Debug;
+		};
+		206EFBBF273B91AC005D2258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.ongakuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ongaku;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		206EFB88273B91AA005D2258 /* Build configuration list for PBXProject "ongaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206EFBB5273B91AC005D2258 /* Debug */,
+				206EFBB6273B91AC005D2258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		206EFBB7273B91AC005D2258 /* Build configuration list for PBXNativeTarget "ongaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206EFBB8273B91AC005D2258 /* Debug */,
+				206EFBB9273B91AC005D2258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		206EFBBA273B91AC005D2258 /* Build configuration list for PBXNativeTarget "ongakuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206EFBBB273B91AC005D2258 /* Debug */,
+				206EFBBC273B91AC005D2258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		206EFBBD273B91AC005D2258 /* Build configuration list for PBXNativeTarget "ongakuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206EFBBE273B91AC005D2258 /* Debug */,
+				206EFBBF273B91AC005D2258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 206EFB85273B91AA005D2258 /* Project object */;
+}
