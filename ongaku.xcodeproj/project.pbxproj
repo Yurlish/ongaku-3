@@ -110,6 +110,7 @@
 		209D4B61273CED1D0038A3C4 /* グリーザ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B5F273CED1D0038A3C4 /* グリーザ.mp3 */; };
 		209D4B62273CED1D0038A3C4 /* グリーザ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 209D4B5F273CED1D0038A3C4 /* グリーザ.mp3 */; };
 		20FF5993274E0C2100C03E48 /* 再生ボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 20FF5992274E0C2100C03E48 /* 再生ボタン.png */; };
+		4BA90BBD2908FE4700D2D7E7 /* ongakupart2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA90BBC2908FE4700D2D7E7 /* ongakupart2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -175,6 +176,7 @@
 		209D4B5B273CED0B0038A3C4 /* 01 僕のこと わかってます.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 僕のこと わかってます.mp3"; sourceTree = "<group>"; };
 		209D4B5F273CED1D0038A3C4 /* グリーザ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "グリーザ.mp3"; sourceTree = "<group>"; };
 		20FF5992274E0C2100C03E48 /* 再生ボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "再生ボタン.png"; sourceTree = SOURCE_ROOT; };
+		4BA90BBC2908FE4700D2D7E7 /* ongakupart2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ongakupart2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 				206EFB90273B91AA005D2258 /* AppDelegate.swift */,
 				206EFB92273B91AA005D2258 /* SceneDelegate.swift */,
 				206EFB94273B91AA005D2258 /* ViewController.swift */,
+				4BA90BBC2908FE4700D2D7E7 /* ongakupart2ViewController.swift */,
 				206EFB96273B91AA005D2258 /* Main.storyboard */,
 				206EFB99273B91AB005D2258 /* Assets.xcassets */,
 				206EFB9B273B91AB005D2258 /* LaunchScreen.storyboard */,
@@ -521,6 +524,7 @@
 				206EFB95273B91AA005D2258 /* ViewController.swift in Sources */,
 				206EFB91273B91AA005D2258 /* AppDelegate.swift in Sources */,
 				206EFB93273B91AA005D2258 /* SceneDelegate.swift in Sources */,
+				4BA90BBD2908FE4700D2D7E7 /* ongakupart2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
